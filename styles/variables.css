@@ -1,1 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: Inter, sans-serif;
+  --accent-font: PressStart2P, monospace;
+  --header-width: clamp(375px, calc(100vw / 2),700px);
+  --main-color: white;
+  --accent-color: black;
+  --border: 2px solid var(--accent-color);
+  --background-image: 
+    repeating-linear-gradient(to right, #d3d3d3 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 2px, transparent 4px),
+    repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  --text-stoke: 1px rgba(255, 255, 255, 0.5);
+  --water-icon-color: rgba(0, 0, 0, 0.5);
+  --contour-color: var(--accent-color);
+  --main-heart-color: #FF0000;
+  --font-weight: 400;
+  --bold-font-weight: 700;
+}

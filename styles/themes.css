@@ -4,3 +4,56 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --main-font: Inter, sans-serif;
+  --accent-font: PressStart2P, monospace;
+  --header-width: clamp(375px, calc(100vw / 2),700px);
+  --main-color: black;
+  --accent-color: #00CC14;
+  --border: 2px solid var(--accent-color);
+  --background-image: 
+    repeating-linear-gradient(to right, #000 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #000 2px, transparent 4px),
+    repeating-linear-gradient(#007f0c, #004306);
+  --text-stoke: 1px rgba(0, 0, 0, 0.5);
+  --water-icon-color: rgba(0, 204, 20, 0.5);
+  --font-weight: 465;
+  --bold-font-weight: 785;
+}
+
+:root.theme-light {
+  --main-font: Inter, sans-serif;
+  --accent-font: PressStart2P, monospace;
+  --header-width: clamp(375px, calc(100vw / 2),700px);
+  --main-color: white;
+  --accent-color: black;
+  --border: 2px solid var(--accent-color);
+  --background-image: 
+    repeating-linear-gradient(to right, #d3d3d3 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 2px, transparent 4px),
+    repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  --text-stoke: 1px rgba(255, 255, 255, 0.5);
+  --water-icon-color: rgba(0, 0, 0, 0.5);
+  --font-weight: 400;
+  --bold-font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font: Inter, sans-serif;
+    --accent-font: PressStart2P, monospace;
+    --header-width: clamp(375px, calc(100vw / 2),700px);
+    --main-color: black;
+    --accent-color: #00CC14;
+    --border: 2px solid var(--accent-color);
+    --background-image: 
+      repeating-linear-gradient(to right, #000 2px, transparent 4px),
+      repeating-linear-gradient(to bottom, #000 2px, transparent 4px),
+      repeating-linear-gradient(#007f0c, #004306);
+    --text-stoke: 1px rgba(0, 0, 0, 0.5);
+    --water-icon-color: rgba(0, 204, 20, 0.5);
+    --font-weight: 465;
+    --bold-font-weight: 785;
+  }
+}

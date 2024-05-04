@@ -475,4 +475,5 @@ body:has(dialog[open]) .dialog {
 .dialog__close-button {
   grid-column: 1 / 4;
   line-height: 90%;
+  text-transform: uppercase;
 }

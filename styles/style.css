@@ -241,16 +241,16 @@
 }
 
 .card__image-container {
+  position: relative;
   width: 100%;
   height: var(--header-width);
-  position: relative;
 }
 
 .image__water-sign {
   position: absolute;
-  z-index: 1;
   top: 25px;
   right: 25px;
+  z-index: 1;
   color: var(--water-icon-color);
   font-family: var(--accent-font);
   font-size: 14px;
@@ -343,9 +343,9 @@
   border: var(--border);
   padding: 30px;
   color: var(--accent-color);
-  background-color: var(--main-color);
   font-family: var(--accent-font);
   font-size: 14px;
+  background-color: var(--main-color);
 }
 
 body:has(dialog[open]) .dialog {

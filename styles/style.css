@@ -269,17 +269,14 @@
 }
 
 .image__waves {
-  background-image: url(../images/card_images/waves.png);
   filter: brightness(0.9) hue-rotate(300deg) contrast(0.9);
 }
 
 .image__sea {
-  background-image: url(../images/card_images/sea.png);
   filter: contrast(1.2);
 }
 
 .image__capybara {
-  background-image: url(../images/card_images/capybara.png);
   filter: saturate(1.3) contrast(1.2);
 }
 
@@ -288,22 +285,18 @@
 }
 
 .image__smeshariki {
-  background-image: url(../images/card_images/smeshariki.png);
   filter: contrast(0.9) blur(5px);
 }
 
 .image__flowers {
-  background-image: url(../images/card_images/flowers.png);
   filter: contrast(1.1) blur(2px) saturate(1.3);
 }
 
 .image__sunrise {
-  background-image: url(../images/card_images/sunrise.png);
   filter: contrast(1.1);
 }
 
 .image__shrek {
-  background-image: url(../images/card_images/shrek.png);
   filter: saturate(0.95);
 }
 
